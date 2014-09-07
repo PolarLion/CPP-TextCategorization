@@ -14,7 +14,7 @@ $(EXECUTABLE): $(OBJECTS)
 	$(CC) $(CFLAGS) $< -o $@
 
 clean0:
-	rm -rf ../*.o ../main
+	rm -rf *.o ../main
 clean1:
 	rm -rf *.o
 
