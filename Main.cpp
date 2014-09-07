@@ -35,7 +35,7 @@ void test_svmtextc(int num)
     SVMTextClassifier svmtc(working_path, num, codingtype::GBK);
 
     map<string, vector<string>> class_map;
-    string path = "training_set/easy_train/";
+    string path = "../training_set/easy_train/";
     vector<string> dirs;
     get_dirs(path, dirs);
     for (auto p = dirs.begin(); p != dirs.end(); ++p) {
